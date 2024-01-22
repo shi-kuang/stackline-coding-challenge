@@ -1,29 +1,8 @@
-import {
-  Chart as ChartJS,
-  CategoryScale,
-  LinearScale,
-  PointElement,
-  LineElement,
-  Title,
-  Tooltip,
-  Legend,
-} from "chart.js";
 import { Line } from "react-chartjs-2";
 import type { RootState } from "../store";
 import { useSelector } from "react-redux";
 import type { SalesData } from "../types/sales";
 import "../css/SalesChart.css";
-
-// Configure ChartJS
-ChartJS.register(
-  CategoryScale,
-  LinearScale,
-  PointElement,
-  LineElement,
-  Title,
-  Tooltip,
-  Legend
-);
 
 interface GroupData {
   [key: string]: number;
