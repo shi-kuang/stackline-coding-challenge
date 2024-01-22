@@ -7,8 +7,8 @@
     "skipLibCheck": true,
 
     /* Bundler mode */
-    "moduleResolution": "bundler",
-    "allowImportingTsExtensions": true,
+    "moduleResolution": "Node",
+    "allowSyntheticDefaultImports": true,
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
@@ -19,12 +19,6 @@
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true
-  },
-  "ts-node": {
-    "compilerOptions": {
-      "module": "ESNext",
-      "moduleResolution": "Node"
-    }
   },
   "include": ["src"],
   "references": [{ "path": "./tsconfig.node.json" }]
