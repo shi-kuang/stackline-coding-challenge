@@ -98,14 +98,12 @@ function SalesChart() {
         data: retailSales,
         backgroundColor: "rgb(65, 105, 225)",
         borderColor: "rgb(65, 105, 225)",
-        pointRadius: 0,
       },
       {
         label: "wholesale",
         data: wholesaleSales,
         backgroundColor: "rgb(88,88,88)",
         bordercolor: "rgb(88,88,88)",
-        pointRadius: 0,
       },
     ],
   };
@@ -114,7 +112,7 @@ function SalesChart() {
     <>
       <div className="chart-container">
         <div style={{ margin: "10px", textAlign: "left", fontSize: "20px" }}>
-          Retail Sales
+          {"Retail Sales ($M)"}
         </div>
 
         <Line options={options} data={salesData} />

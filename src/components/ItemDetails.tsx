@@ -15,7 +15,7 @@ const ItemDetails = () => {
       />
       <div style={{ color: "black", fontWeight: "bold" }}> {details.title}</div>
 
-      <div>{details.subtitle}</div>
+      <div style={{ textAlign: "center" }}>{details.subtitle}</div>
       <div className="tags">
         {details.tags.map((tag: string, i: number) => (
           <div key={`${tag}-${i}`} className="tag-details">
