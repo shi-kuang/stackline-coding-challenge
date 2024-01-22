@@ -66,7 +66,7 @@ function SalesChart() {
       x: { grid: { display: false } },
       y: {
         min: 0,
-        max: 10,
+        max: 6,
         stepSize: 0.5,
         grid: { display: false },
         display: false,
