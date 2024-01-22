@@ -21,7 +21,7 @@ const App: React.FC = () => {
 
   return (
     <>
-      <div style={{ backgroundColor: "#ADD8E6", padding: "10px" }}>
+      <div style={{ backgroundColor: "#00008B", padding: "10px" }}>
         <Logo />
       </div>
       <div className="mainDashboard">
