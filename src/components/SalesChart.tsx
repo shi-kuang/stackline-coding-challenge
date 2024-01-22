@@ -4,6 +4,27 @@ import { useSelector } from "react-redux";
 import type { SalesData } from "../types/sales";
 import "../css/SalesChart.css";
 
+import {
+  Chart as ChartJS,
+  CategoryScale,
+  LinearScale,
+  PointElement,
+  LineElement,
+  Title,
+  Tooltip,
+  Legend,
+} from "chart.js";
+
+ChartJS.register(
+  CategoryScale,
+  LinearScale,
+  PointElement,
+  LineElement,
+  Title,
+  Tooltip,
+  Legend
+);
+
 interface GroupData {
   [key: string]: number;
 }
