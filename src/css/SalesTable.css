@@ -1,0 +1,10 @@
+.retail-sales-table {
+  width: 100%;
+}
+
+.retail-sales-table th,
+.retail-sales-table td {
+  text-align: center;
+  border-bottom: 1px solid #f8f8f8;
+  padding: 10px;
+}
